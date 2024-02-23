@@ -1,0 +1,52 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  h1 {
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 700;
+    padding-top: 75px;
+    text-align: center;
+  }
+  .ik{
+    border-radius: 50%;
+    
+
+  }.containerr {
+    height: 500px;
+
+  }
+  .offer{
+    font-family: var(--bs-body-font-family);
+    font-weight: 400;
+    font-size: x-large;
+    
+  }
+  #text1 {
+    font-weight: 400;
+  }
+  button {
+    margin: 20px;
+  }
+  .contact {
+    text-align: center;
+  }
+  footer {
+    background-color: #ff4c68;
+  }
+
+  }
